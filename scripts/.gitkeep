@@ -65,15 +65,9 @@
 <head> 
 
 <header> 
-<h1>choose your squad</h1>
+<center><h1>choose your squad!</h1></center>
 </header>
-
-</style>
-</head>
-<header> 
-    <center><h2>choose your squad!</h2><center/>
-    <br>
-</header>
+<head/>
 
 <body>
 <div class="row">
@@ -90,8 +84,6 @@
 
   <div class="column">
     <div class="card">
-    <button class="button">
-      <img src="blob:chrome-untrusted://media-app/3acff7f9-45e7-4df9-ab83-a51125938424" alt="campus tour" style="width:50%">
       <div class="container">
         <p><button class="button">campus tour</button></p>
       </div>
