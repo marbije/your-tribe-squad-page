@@ -94,15 +94,15 @@
     <div class="card">
     <button class="button">
       <img src="blob:chrome-untrusted://media-app/3acff7f9-45e7-4df9-ab83-a51125938424" alt="campus tour" style="width:50%">
-      </button>
       <div class="container">
+        <p><button class="button">campus tour</button></p>
       </div>
     </div>
   </div>
   
   <div class="column">
     <div class="card">
-      <img src="/w3images/team3.jpg" alt="aquad G" style="width:100%">
+      <img src="https://i.pinimg.com/564x/5c/3e/27/5c3e27bfa9361e28ef8f94d504a2503f.jpg" alt="aquad G" style="width:100%">
       <div class="container">
         <p><button class="button">see more </button></p>
       </div>
