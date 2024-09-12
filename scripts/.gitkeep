@@ -5,8 +5,17 @@
 <title> squad page </title>
 
 <head> 
+<header>
 <h1> choose you squad! </h1>
-
-
+</header>
+<body> 
+<a> </a>
+<div class="button-container"> 
+    <button>button 1</button>
+    <button>button 2</button>
+</div>
+</body>
+<footer>
+</footer>
 </head>
 
