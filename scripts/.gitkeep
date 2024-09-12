@@ -2,20 +2,60 @@
 <html lang="NL">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="styles/.gitkeep" rel="stylesheet">
+
 <title> squad page </title>
 
 <head> 
-<header>
-<h1> choose you squad! </h1>
-</header>
-<body> 
-<a> </a>
-<div class="button-container"> 
-    <button>button 1</button>
-    <button>button 2</button>
-</div>
-</body>
-<footer>
-</footer>
-</head>
 
+<header> 
+<h1>choose your squad</h1>
+</header>
+
+</style>
+</head>
+<header> 
+    <center>
+    <h2>choose your squad!</h2>
+    <center/>
+    <br>
+</header>
+
+<body>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="https://i.pinimg.com/564x/1a/cc/af/1accaf88c4ce3d0fd89a7cde0e960653.jpg" alt="squad H" 
+      style="width:100%">
+      <div class="container">
+        <h2>Squad H </h2>
+        <p><button class="button">see more</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+    <button class="button">
+      <img src="blob:chrome-untrusted://media-app/3acff7f9-45e7-4df9-ab83-a51125938424" alt="campus tour" style="width:50%">
+      </button>
+      <div class="container">
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="/w3images/team3.jpg" alt="aquad G" style="width:100%">
+      <div class="container">
+        <p><button class="button">see more </button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+
+
+   
