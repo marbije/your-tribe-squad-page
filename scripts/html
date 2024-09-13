@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="NL">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles/style.css">
+
+<title> squad page </title>
+
+<head> 
+
+<header> 
+<center><h1>choose your squad!</h1></center>
+</header>
+<head/>
+
+<body>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="https://i.pinimg.com/564x/1a/cc/af/1accaf88c4ce3d0fd89a7cde0e960653.jpg" alt="squad H" 
+      style="width:100%">
+      <div class="container">
+        <h2>Squad H </h2>
+        <p><button class="button">see more</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <p><button class="button">campus tour</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="https://i.pinimg.com/564x/5c/3e/27/5c3e27bfa9361e28ef8f94d504a2503f.jpg" alt="aquad G" style="width:100%">
+      <div class="container">
+        <h2>Squad G</h2>
+        <p><button class="button">see more </button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+
+
+   
