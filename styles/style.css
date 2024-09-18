@@ -14,6 +14,7 @@ h1 {
 .row {
   display: flex;            
   flex-wrap: wrap; 
+  justify-content:center;
 } 
 
 .column {
@@ -47,8 +48,8 @@ h1 {
   background-color: #000;
   text-align: center;
   cursor: pointer;
-  width: 100%; /* Only if you need full-width buttons */
-}
+  margin: 8px auto; 
+  width: auto; 
 
 .button:hover {
   background-color: #555;
