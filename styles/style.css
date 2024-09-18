@@ -6,7 +6,7 @@ body {
   box-sizing: inherit;
 }
 
-.h1 {
+h1 {
   text-align:center;
 }
 
@@ -14,7 +14,6 @@ body {
 .row {
   display: flex;            
   flex-wrap: wrap; 
-  justify-content: center;
 } 
 
 .column {
@@ -25,13 +24,12 @@ body {
   padding: 0 8px;
 }
 
-@media screen and (min-width; 650px) {
-  .column {
+@media screen and (min-width: 650px){
+   .column {
     width: 100%;
     display: block;
   }
 }
-
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
