@@ -6,6 +6,11 @@ body {
   box-sizing: inherit;
 }
 
+.row {
+  display: flex;            
+  flex-wrap: wrap; 
+} 
+
 .column {
   display: flex;
   width: 33.3%;
