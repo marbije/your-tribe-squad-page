@@ -7,13 +7,14 @@ body {
 }
 
 .h1 {
-  display: flex;
   text-align:center;
 }
+
 
 .row {
   display: flex;            
   flex-wrap: wrap; 
+  justify-content: center;
 } 
 
 .column {
