@@ -1,3 +1,8 @@
+
+
+
+
+
 een groepje van 3 in een squadpage alle profile cards te laten zien 
 
 - kleurpalet 
