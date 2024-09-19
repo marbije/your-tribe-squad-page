@@ -1,10 +1,16 @@
 
-# Squad page
 
-Ontwerp en maak met een team een Squad Page met HTML, CSS en JS.
 
-De instructie van deze leertaak staan in de [INSTRUCTIONS.md](https://github.com/fdnd-task/your-tribe-squad-page/blob/main/docs/INSTRUCTIONS.md)
 
-## Licentie
 
-This project is licensed under the terms of the [MIT license](./LICENSE).
+een groepje van 3 in een squadpage alle profile cards te laten zien 
+
+- kleurpalet 
+- iedereen zijn eigen draai eraan heeft gegeven 
+
+korte uitleg project ( drie opvallende features)
+screenshots 
+info teamleden 
+
+https://edu.nl/fhhhr
+
