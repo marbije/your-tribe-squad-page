@@ -73,3 +73,7 @@ img {
 .button:hover {
   background-color: #555;
 }
+
+.custom-cursor {
+  cursor: url('https://cdn-icons-png.flaticon.com/512/3494/3494660.png'), auto;
+}
