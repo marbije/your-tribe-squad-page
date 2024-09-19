@@ -1,6 +1,8 @@
 body {
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
+  cursor: url('https://cdn-icons-png.flaticon.com/512/3494/3494660.png'), auto; 
+}
 }
 
 * {
@@ -72,8 +74,4 @@ img {
 
 .button:hover {
   background-color: #555;
-}
-
-.custom-cursor {
-  cursor: url('https://cdn-icons-png.flaticon.com/512/3494/3494660.png'), auto;
 }
