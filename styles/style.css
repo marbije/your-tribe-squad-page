@@ -32,11 +32,11 @@ h1 {
   }
 }
 .card {
-  display: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .container {
+  display: center;
   padding: 0 16px;
 }
 
