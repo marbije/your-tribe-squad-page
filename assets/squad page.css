@@ -38,7 +38,7 @@
   }
 
   .title {
-    color: grey;
+    color: #fff;
   }
 
   .button {
@@ -47,29 +47,17 @@
     display: inline-block;
     padding: 8px;
     color: white;
-    background-color: #000;
+    background-color: #fff;
     text-align: center;
     cursor: pointer;
     width: 100%;
   }
 
   .button:hover {
-    background-color: #555;
+    background-color: #fff;
   }
+  body {
+    font-family: 'Lalezar', sans-serif;
+}
+
 </style>
-
-
-}      
-.container {
-  display:flex;
-  justify-content: center;
-  align-items: center;  
-  height: 100vh;          
-}
-
-.circle {
-  width: 200px;
-  height: 200px;
-  background-color: #3498db;
-  border-radius: 50%;
-}
