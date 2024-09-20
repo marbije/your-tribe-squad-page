@@ -1,12 +1,17 @@
 body {
-    background-color: rgb(1, 8, 49);
-    color: white;
     font-family: Arial, sans-serif;
+    color: white;
     margin: 0;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+background-image: url('https://i.pinimg.com/564x/8d/c5/88/8dc588995bbb25db2db85df1c8f3844a.jpg'); 
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat; 
 }
 
 .container {
@@ -18,28 +23,6 @@ header h1 {
     margin: 0;
 }
 
-.typewriter h2 {
-  color: #fff;
-  font-family: monospace;
-  overflow: hidden; 
-  border-right: .15em solid rgb(0, 140, 255); 
-  white-space: nowrap; 
-  margin: 0 auto; 
-  letter-spacing: .15em; 
-  animation: 
-  typing 3.5s steps(30, end),
-  blink-caret .5s step-end infinite;
-}
-
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
-
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: rgb(12, 0, 68) }
-}
 
 header h2 {
     font-size: 1.5em;
