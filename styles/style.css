@@ -1,17 +1,12 @@
 body {
+  background-color: black;
+   color: white;
     font-family: Arial, sans-serif;
-    color: white;
     margin: 0;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-background-image: url('https://i.pinimg.com/564x/8d/c5/88/8dc588995bbb25db2db85df1c8f3844a.jpg'); 
-  background-size: cover; 
-  background-position: center;
-  background-repeat: no-repeat; 
 }
 
 .container {
