@@ -54,6 +54,8 @@ h1 {
 >>>>>>> Stashed changes:style.css
 }
 
+@media( max-width:769px)
+
 .container {
     text-align: center;
 }
