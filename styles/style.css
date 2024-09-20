@@ -1,7 +1,8 @@
 body {
   box-sizing: border-box;
-  font-family: 'Lalezar', sans-serif;
+  font-family: 'laleza', sans-serif;
   cursor: url('https://cdn-icons-png.flaticon.com/512/3494/3494660.png'), auto; 
+  cursor: pointer; url(https://cdn-icons-png.flaticon.com/512/3494/3494660.png), auto;
 }
 
 * {
