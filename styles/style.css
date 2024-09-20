@@ -21,7 +21,7 @@ header h1 {
 }
 
 .typewriter h2 {
-  justify-content: center;
+  content: center;
   color: #fff;
   font-family: monospace;
   overflow: hidden; 
