@@ -9,6 +9,8 @@ body {
     align-items: center;
 }
 
+@media( max-width:769px)
+
 .container {
     text-align: center;
 }
