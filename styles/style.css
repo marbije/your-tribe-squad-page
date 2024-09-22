@@ -1,27 +1,27 @@
 body {
   background-color: black;
-   color: white;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-@media( max-width:650px)
-
-.container {
+@media (max-width: 650px) {
+  .container {
     text-align: center;
+  }
 }
 
 header h1 {
-    font-size: 3em;
-    margin: 0;
+  font-size: 3em;
+  margin: 0;
 }
 
 .typewriter h2 {
-  content: center;
+  text-align: center;
   color: #fff;
   font-family: monospace;
   overflow: hidden; 
@@ -29,39 +29,74 @@ header h1 {
   white-space: nowrap; 
   margin: 0 auto; 
   letter-spacing: .15em; 
-  
   animation: 
-  content: center;
-  typing 3.5s steps(30, end),
-  blink-caret .5s step-end infinite;
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
 }
 
 @keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+  from { width: 0; }
+  to { width: 100%; }
 }
 
 @keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: rgb(12, 0, 68) }
+  from, to { border-color: transparent; }
+  50% { border-color: rgb(12, 0, 68); }
 }
 
 header h2 {
-    font-size: 1.5em;
-    margin-top: 10px;
+  font-size: 1.5em;
+  margin-top: 10px;
 }
 
 .content h2 {
-    margin-top: 20px;
-    font-size: 2em;
+  margin-top: 20px;
+  font-size: 2em;
 }
 
 .image-button img {
-    border-radius: 10px;
-    transition: transform 0.3s ease;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
 }
 
 .image-button img:hover {
-    transform: scale(1.05); 
+  transform: scale(1.05); 
 }
 
+.speech-bubble {
+  position: relative;
+  background: #00aaff;
+  border-radius: 0.4em;
+  padding: 20px;
+  max-width: 200px;
+  text-align: center;
+  margin: 50px auto; /* Center horizontally */
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 1.2em;
+}
+
+.speech-bubble::after {
+  content: '';
+  position: absolute;
+  bottom: -20px; /* Positioning the speech tail */
+  left: 50%;
+  margin-left: -20px;
+  width: 0;
+  height: 0;
+  border: 20px solid transparent;
+  border-top-color: #00aaff; /* The tail color matches the speech bubble */
+  border-bottom: 0;
+  border-left: 0;
+  margin-left: -10px;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
