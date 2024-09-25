@@ -18,7 +18,7 @@ body {
 .main-content {
   text-align: center;
   flex-grow: 1;
-} /* Missing closing brace added here */
+} 
 
 .speech-bubble {
   background-color: #4a90e2;
@@ -29,10 +29,9 @@ body {
   max-width: 300px;
   text-align: center;
   font-size: 18px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Adjusted shadow to make it visible */
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2); /* Adjusted shadow to make it visible */
   margin-left: 20px;
-} /* Missing closing brace added here */
-
+} 
 .speech-bubble::after {
   content: '';
   position: absolute;
