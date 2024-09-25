@@ -5,8 +5,19 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
-  background-color: #f0f0f0;
+  background-color: #000000;
 }
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%; 
+}
+
+.main-content {
+  text-align: center;
+  flex-grow: 1; 
 
 .speech-bubble {
   background-color: #4a90e2;
@@ -18,7 +29,7 @@ body {
   text-align: center;
   font-size: 18px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-}
+  margin-left: 20px; 
 
 .speech-bubble::after {
   content: '';
@@ -32,7 +43,7 @@ body {
 }
 
 .speech-bubble a {
-  color: #ffeb3b;
+  color: #001a70;
   font-weight: bold;
   text-decoration: none;
 }
@@ -43,6 +54,7 @@ body {
 
 @media (max-width: 650px) {
   .container {
+    flex-direction: column;
     text-align: center;
   }
 }
@@ -74,6 +86,7 @@ header h1 {
 @keyframes blink-caret {
   from, to { border-color: transparent; }
   50% { border-color: orange; }
+}
 
 header h2 {
   font-size: 1.5em;
@@ -93,4 +106,3 @@ header h2 {
 .image-button img:hover {
   transform: scale(1.05); 
 }
-
