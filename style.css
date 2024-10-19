@@ -4,11 +4,10 @@ body {
   text-align: center; 
   margin: 0;
   font-family: url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
-  min-height: 100vh; /* Ensure the background color covers the full height */
-  display: flex;
+  min-height: 100vh; 
   flex-direction: column;
-  justify-content: center; /* Centers content vertically */
-  align-items: center; /* Centers content horizontally */
+  justify-content: center; 
+  align-items: center; 
 }
 
 * {
@@ -24,10 +23,9 @@ h1, h2 {
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 20px;
   justify-items: center;
-  max-width: 1200px; /* Limit the width to keep it centered */
+  max-width: 1200px;
   width: 100%;
-  padding: 20px; /* Add padding for spacing */
-} 
+  padding: 20px; 
 
 .column {
   display: flex;
